@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <style>
+        body {
+          background-image: url('./download.png');
+          background-size: 1550px 750px;
+          background-repeat: no-repeat;
+          
+        }
+</style>
+</head>
+<body>
+
+
+
+<div style="position:relative">
+<svg  viewBox="-80 20 800 300" id="my_dataviz" width="600" height="350" style="background-color:black" ></svg> 
+   
+    <script src="choroplethMap.js">
+        
+    </script>
+    <script>
+        ChoroplethMap()
+
+    </script>
+
+
+<svg  id="bubble" viewBox="-80 20 800 300" width="600" height="350" style="background-color:black"> </svg>
+
+        <script src="bubbleMap.js">
+              
+        </script>
+        
+        <script>
+            BubbleMap()
+        </script>
+
+<svg  id="Box" viewBox="-80 20 800 300" width="200" height="360" style="background-color:black"> </svg>
+
+
+
+<script>
+    Radial()
+</script>
+
+<svg  id="Histogram" viewBox="0 100 800 200" width="600" height="320" style="background-color:#383838"> </svg>
+
+        <script src="Histogram.js">
+              
+        </script>
+        
+        <script>
+            Histogram()
+        </script>
+
+
+
+
+
+<svg  id="Hexbin" viewBox="-50 20 900 300" width="700" height="300" style="background-color:#383838"> </svg>
+
+<script src="LolipopChart.js">
+      ;
+</script>
+<div id="button">
+<button onclick="update('Deaths')">Deaths</button>
+<button onclick="update('Recovered')">Recovered</button>
+</div>
+</div>
+
+
+<div id="T1">
+    C
+ </div>
+ <div id="T2">
+    o
+ </div>
+ <div id="T3">
+    v
+ </div>
+ <div id="T4">
+    i
+ </div>
+ <div id="T5">
+    d
+ </div>
+ <div id="T6">
+    -
+ </div>
+ <div id="T7">
+    1
+ </div>
+ <div id="T8">
+    9
+ </div>
+
+ <div id="T9">
+     D
+ </div>
+ 
+ <div id="T10">
+    A
+</div>
+
+<div id="T11">
+    S
+</div>
+
+<div id="T12">
+    H
+</div>
+
+<div id="T13">
+    B
+</div>
+
+<div id="T14">
+    O
+</div>
+
+<div id="T15">
+    A
+</div>
+
+<div id="T16">
+    R
+</div>
+ 
+<div id="T17">
+    D
+</div>
+    
+<div id="Title1">
+    Confirmed Cases Global Dashboard
+</div>
+
+<div id="Title2">
+    Vaccination Record Global Dashboard
+</div>
+
+<div id="Title3">
+    Case- Fatality-Ratio - Top 10
+</div>
+
+<div id="Title4">
+    Deaths and Recovered Top- 20
+</div>
+    
+
+<div id="l1">
+    100
+</div>
+
+<div id="l2">
+    1000
+</div>
+
+<div id="l3">
+    10000
+</div>
+
+<div id="l4">
+    100000
+</div>
+
+<div id="l5">
+    1000000
+</div>
+
+<div id="l6">
+    10000000
+</div>
+
+<div id="l7">
+    100000000
+</div>
+
+
+</body>
+</html>
